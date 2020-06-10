@@ -30,8 +30,8 @@
         }
       },
       "root": "",
-      "sourceRoot": "src", 
-      "prefix": "app", 
+      "sourceRoot": "src",
+      "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -142,7 +142,10 @@
           }
         }
       }
-    } 
+    }
   },
-  "defaultProject": "emporium"
+  "defaultProject": "emporium",
+  "cli": {
+    "analytics": false
+  }
 }
