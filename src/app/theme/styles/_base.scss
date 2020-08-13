@@ -495,16 +495,17 @@ button.swipe-arrow{
     height: 40px;
     cursor: pointer;
     z-index: 999999;
-    right: 20px;
+    left: 20px;
     bottom: 20px;
-    opacity: .5;
+    opacity: 0.5;
     color: #fff;
-    background-color: rgba(0,0,0,.75);
-    border-radius: 4px;    
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;   
     &:hover{
         opacity: 0.9;
     }    
 }
+
 
 
 
